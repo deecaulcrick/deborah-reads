@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-linear-to-b from-[#96BBCD] to-[#FFFFFF] py-12  flex items-center justify-center">
       <div className="container p-8 md:p-12 flex flex-col min-h-screen">
         <Hero />
-        <div className="mt-12 grow">
+        <div className="mt-12 grow mb-10">
           <Articles />
         </div>
         <Footer />

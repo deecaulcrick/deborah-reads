@@ -8,6 +8,8 @@
   --theme-lime: #B2B63E;
   --theme-green: #425600;
   --theme-red: #891B0E;
+  --theme-sky: #96BBCD;
+  --them-biege: #A39882;
 }
 
 @theme inline {
@@ -20,6 +22,7 @@
   --color-theme-lime: var(--theme-lime);
   --color-theme-green: var(--theme-green);
   --color-theme-red: var(--theme-red);
+  --colr-theme-sky: var(--theme-sky);
 }
 
 /* @media (prefers-color-scheme: dark) {
