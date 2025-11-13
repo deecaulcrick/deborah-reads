@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-instrument-serif: 'Instrument Serif', serif;
+    --theme-blue: #233772;
+  --theme-lime: #B2B63E;
+  --theme-green: #425600;
+  --theme-red: #891B0E;
 }
 
 @theme inline {
@@ -10,14 +15,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-instrument-serif);
+  --color-theme-blue: var(--theme-blue);
+  --color-theme-lime: var(--theme-lime);
+  --color-theme-green: var(--theme-green);
+  --color-theme-red: var(--theme-red);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
